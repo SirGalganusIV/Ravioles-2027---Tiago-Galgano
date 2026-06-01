@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ravioles 2027</title>
+</head>
+<body>
+    <h1><strong>Ravioles Promo Programacion 2027</strong></h1>
+    <img src="/assetes/Nico Turbina.jpg" alt="" height="100" width="100">
+    
+    <figcaption>Nuestro Chef estrella preparando el pedido</figcaption>
+    <hr>
+
+      <h2><b><em>¡Compre YA los mejores Ravioles de San Martin de los Andes!</em></b></h2>
+      <table border="3">
+      <tr>
+        <th colspan="7">Nuestro Menu</th>
+      </tr>
+      <tr>
+        <th>Tipo de Producto</th>
+        <th>Tipo</th>
+        <th>Receta</th>
+        <th colspan="2">Precio</th>
+        <th colspan="">Vista Previa</th>
+        <th>Links</th>
+      </tr>
+      <tr>
+        <td>Comida</td>
+        <td>Ricota</td>
+        <td><a href="./pages/ricota_receta.html">Ver Receta</a></td>
+        <td colpsan="2">$3000/Plancha</td>
+        <td>$9000/3 Planchas</td>
+        <td><img src="./assetes/Ravioles Ricota.png" alt="" width="100" height="100"></td>
+        <td><a href="./pages/ricota_pedir.html">Pedir</a></td>
+      </tr>
+      <tr>
+        <td>Comida</td>
+        <td>Verdura</td>
+        <td><a href="./pages/verdura_receta.html">Ver Receta</a></td>
+        <td colpsan="2">$2500/Plancha</td>
+        <td>$7500/3 Planchas</td>
+        <td><img src="./assetes/Ravioles Verdura.jpg" alt="" width="100" height="100"></td>
+        <td><a href="./pages/verdura_pedir.html">Pedir</a></td>
+      </tr>
+      <tr>
+        <td>Comida</td>
+        <td>Carne</td>
+        <td><a href="./pages/carne_receta.html">Ver Receta</a></td>
+        <td colpsan="2">$4000/Plancha</td>
+        <td>$12000/3 Planchas</td>
+        <td><img src="./assetes/Ravioles Carne.jpg" alt="" width="100" height="100"></td>
+        <td><a href="./pages/carne_pedir.html">Pedir</a></td>
+      </tr>
+      <tr>
+        <td>Salsa</td>
+        <td>Blanca</td>
+        <td><a href="./pages/salsablanca_receta.html">Ver Receta</a></td>
+        <td colpsan="2">$1000x1</td>
+        <td>$3000x3</td>
+        <td><img src="./assetes/Salsa Blanca.jpeg" alt="" width="100" height="100"></td>
+        <td><a href="./pages/salsablanca_pedir.html">Pedir</a></td>
+      </tr>
+      <tr>
+        <td>Salsa</td>
+        <td>Tomate</td>
+        <td><a href="./pages/salsaroja_receta.html">Ver Receta</a></td>
+        <td>$1000x1</td>
+        <td>$3000x3</td>
+        <td><img src="./assetes/Salsa de Tomate.avif" alt="" width="100" height="100"></td>
+        <td><a href="./pages/salsaroja_pedir.html">Pedir</a></td>
+      </tr>
+      <tr>
+        <td>Salsa</td>
+        <td>Manteca y Salvia</td>
+        <td><a href="./pages/salsa_salvia_receta.html">Ver Receta</a></td>
+        <td>$1500x1</td>
+        <td>$4500x3</td>
+        <td><img src="./assetes/Salsa Salvia y Manteca.jpg" alt="" width="100" height="100"></td>
+        <td><a href="./pages/salsa_salvia_pedir.html">Pedir</a></td>
+      </tr>
+    </table>
+    <h5><small>Todos los derechos estan reservados a Cojunga & Brother's©</small></h5>
+</body>
+</html>
