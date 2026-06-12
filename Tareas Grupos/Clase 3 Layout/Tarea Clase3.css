@@ -1,0 +1,39 @@
+.contenedor-tres {
+    width: 100%;
+    font-size: 0;
+}
+
+.bloque-columna {
+    display: inline-block;
+    width: 31%;
+    margin-right: 3%;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-size: 16px;
+    padding: 15px;
+    color: white;
+}
+
+#bloque-uno {
+    background-color: #333333;
+}
+
+#bloque-uno a {
+    color: #00acc1;
+}
+
+#bloque-dos {
+    background-color: #444444;
+}
+
+.elemento-lista {
+    display: list-item;
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#bloque-tres {
+    background-color: #555555;
+    margin-right: 0;
+}
