@@ -1,0 +1,69 @@
+<!-- ctividad: Interacciones CSS (Corto) -->
+<!-- Punto 1: El Foco Accesible (outline) -->
+<!-- Desafío: Crea un enlace cualquiera. Haz que cuando reciba el foco (:focus) al pulsar la tecla TAB,  -->
+<!-- se muestre un contorno (outline) de color rojo, sólido, de 4px y separado del enlace por un espacio (outline-offset) de 8px. -->
+<!--  -->
+<!-- Punto 2: El Cursor del Ratón (cursor) -->
+<!-- Desafío: Crea dos cajas (<div>) de 200px x 200px. -->
+<!--  -->
+<!-- Al pasar el ratón por la primera, el cursor debe transformarse en una cruceta (crosshair). -->
+<!--  -->
+<!-- Al pasar por la segunda, debe transformarse en el cursor de carga en segundo plano (progress). -->
+<!--  -->
+<!-- Punto 3: Desplazamiento Suave (scroll-behavior) -->
+<!-- Desafío: Crea un enlace que apunte a un ancla (por ejemplo, href="#abajo") y un bloque de texto largo abajo con ese id.  -->
+<!-- Aplica la propiedad necesaria en el <html> para que, al cliquear el enlace, la pantalla baje de forma suave (smooth) y no de golpe. -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Interacciones CSS</title>
+  <link rel="stylesheet" href="Tarea Clase 5.css">
+</head>
+<body>
+
+    <div id="arriba" class="bloque-largo">
+        <a href="#abajo" class="enlace-foco" href="#arriba">Ir abajo</a>
+    </div>
+
+  <div class="caja caja-crosshair"><h1>Caja CrossHair</h1></div>
+  <div class="caja caja-progress"><h1>Caja Progress</h1></div>
+
+  <div><h1>"....."</h1></div>
+  <div><h1>"....."</h1></div>
+  <div><h1>"....."</h1></div>
+  <div><h1>"....."</h1></div>
+  <div><h1>"....."</h1></div>
+  <div><h1>"....."</h1></div>
+  <div><h1>"....."</h1></div>
+  <div><h1>"....."</h1></div>
+  <div><h1>"....."</h1></div>
+  <div><h1>"....."</h1></div>
+  <div><h1>"....."</h1></div>
+  <div><h1>"....."</h1></div>
+  <div><h1>"....."</h1></div>
+  <div><h1>"....."</h1></div>
+  <div><h1>"....."</h1></div>
+  <div><h1>"....."</h1></div>
+  <div><h1>"....."</h1></div>
+  <div><h1>"....."</h1></div>
+  <div><h1>"....."</h1></div>
+  <div><h1>"....."</h1></div>
+  <div><h1>"....."</h1></div>
+  <div><h1>"....."</h1></div>
+  <div><h1>"....."</h1></div>
+  <div><h1>"....."</h1></div>
+  <div><h1>"....."</h1></div>
+  <div><h1>"....."</h1></div>
+  <div><h1>"....."</h1></div>
+  <div><h1>"....."</h1></div>
+  <div><h1>"....."</h1></div>
+  <div><h1>"....."</h1></div>
+
+  <div id="abajo" class="bloque-largo">
+    <a href="#arriba" class="enlace-foco">Ir Arriba</a>
+  </div>
+
+</body>
+</html>
